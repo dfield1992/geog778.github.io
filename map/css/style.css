@@ -1,0 +1,55 @@
+body{
+    
+}
+
+#forward {
+float: right;
+}
+
+#reverse {
+float: left;
+}
+/*Prop Map */
+#map {
+height: 670px;
+width: 100%;
+display: inline-block;
+}
+
+.sequence-control-container {
+width: 350px;
+height: 150px;
+background-color: rgba(255,255,255,0.8);
+padding: 10px;
+line-height: 15px;
+text-align: center;
+border: solid black 2px;
+}
+
+#sequence-legend {
+    text-indent: 22px;
+    font-size: 14px;
+
+}
+
+.legend-control-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    line-height: 25px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+#temporal-legend {
+    text-align: center;
+    width: 190px;
+    overflow: normal;
+}
+
+.range-slider {
+width: 200px;
+}
+
